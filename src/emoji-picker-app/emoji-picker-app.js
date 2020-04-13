@@ -13,15 +13,17 @@ class EmojiPickerApp extends PolymerElement {
           display: block;
         }
       </style>
-      <h2>Hello [[prop]]!</h2>
-      <paper-input always-float-label label="Floating label"></paper-input>
+      <emoji-rain drops="50" active></emoji-rain>
+      <h2>Search for an emoji:</h2>
+      <paper-input value="{{search_string}}"></paper-input>
+      <p>Currently searching for:[[search_string]]</p>
     `;
   }
   static get properties() {
     return {
-      prop: {
+      search_string: {
         type: String,
-        value: 'emoji_picker-app'
+        value: 'tears'
       }
     };
   }
