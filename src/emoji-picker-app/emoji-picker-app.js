@@ -28,7 +28,7 @@ class EmojiPickerApp extends PolymerElement {
     return {
       search_string: {
         type: String,
-        value: 'tears'
+        value: 'smile'
       }
     };
   }
