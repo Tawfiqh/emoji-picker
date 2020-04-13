@@ -1,6 +1,10 @@
 # \<emoji_picker\>
 
-Can pick emoji 
+Can pick emoji. (just a test project for me to play wiht Polymer)
+
+Based largely off of: https://github.com/jrabbit/emoji-selector
+and
+emoji_list from https://github.com/muan/emojilib
 
 ## Install the Polymer-CLI
 

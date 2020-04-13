@@ -58,6 +58,8 @@ class EmojiSelector extends PolymerElement {
     :host {
       display: inline-block;
       --paper-tabs-selection-bar-color: var(--default-primary-color);
+      width:100%;
+      height:100%;
     }
 
     paper-tabs {
@@ -76,10 +78,6 @@ class EmojiSelector extends PolymerElement {
       };
     };
 
-    iron-pages {
-      height: 155px;
-    }
-
     #menu {
       padding: 0;
     }
@@ -87,12 +85,12 @@ class EmojiSelector extends PolymerElement {
     .box {
       background: var(--emoji-selector-background-color, white);
       border-radius: 2px;
-      box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
-
+      /* box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
       width: 270px;
-      height: 240px;
+      height: 240px; */
       font-size: 15px;
-
+      height: 100%;
+      width: 100%;
       @apply --emoji-selector;
     }
 

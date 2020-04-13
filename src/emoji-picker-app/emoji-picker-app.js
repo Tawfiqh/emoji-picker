@@ -15,12 +15,12 @@ class EmojiPickerApp extends PolymerElement {
       <style>
         :host {
           display: block;
+          font-family: 'Raleway', sans-serif;
         }
       </style>
-      <emoji-rain drops="50" active></emoji-rain>
+
       <h2>Search for an emoji:</h2>
-      <paper-input value="{{search_string}}"></paper-input>
-      <p>Currently searching for:[[search_string]]</p>
+
       <emoji-selector search-string="{{search_string}}"></emoji-selector>
     `;
   }
