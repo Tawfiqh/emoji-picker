@@ -2,8 +2,9 @@
   "name": "emoji_picker",
   "description": "Can pick emoji ",
   "dependencies": {
+    "@polymer/iron-icons": "^3.0.1",
     "@polymer/paper-input": "^3.2.1",
-    "@polymer/polymer": "^3.0.0"
+    "@polymer/polymer": "^3.0.0",
   },
   "devDependencies": {
     "@polymer/test-fixture": "^4.0.2",
