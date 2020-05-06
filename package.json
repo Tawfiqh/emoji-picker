@@ -9,13 +9,15 @@
     "@polymer/paper-menu-button": "^3.0.1",
     "@polymer/paper-tabs": "^3.1.0",
     "@polymer/polymer": "^3.0.0",
-    "emojilib": "github:muan/emojilib"
+    "emojilib": "github:muan/emojilib",
+    "polymer-cli": "^1.9.11"
   },
   "devDependencies": {
     "@polymer/test-fixture": "^4.0.2",
     "@webcomponents/webcomponentsjs": "^2.0.0",
     "chai": "^4.2.0",
     "mocha": "^6.1.4",
+    "polymer-build": "^3.1.4",
     "wct-mocha": "^1.0.1"
   }
 }
